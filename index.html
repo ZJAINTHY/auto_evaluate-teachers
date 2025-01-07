@@ -1,0 +1,26 @@
+<!-- templates/index.html -->
+<!doctype html>
+<html>
+<head>
+    <title>评教系统</title>
+</head>
+<body>
+    <h1>登录并开始评教</h1>
+    <form action="/login" method="post">
+        <label for="username">学号:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">密码:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="nums">评教数量:</label>
+        <input type="number" id="nums" name="nums" min="1"><br><br>
+        <input type="submit" value="开始评教">
+    </form>
+</body>
+</html>
+
+
+</head>
+<body>
+    <h1>程序不能检测密码正确性，所以请提前确定好。若几分钟后评教数没变化请重试或与我联系</h1>
+</body>
+</html>
